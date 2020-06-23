@@ -4,16 +4,15 @@
   box-sizing: border-box;
 }
 .navTop {
-  display:  flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   justify-items: center;
   width: 100%;
   height: 32px;
   background: #131313;
-  color: rgba(255,255,266,0.5);
+  color: rgba(255, 255, 266, 0.5);
   padding: 15px 15px 30px;
-
 }
 .navTop ul {
   list-style: none;
@@ -30,7 +29,7 @@
 }
 
 .liFirst {
-  color:  white;
+  color: white;
 }
 
 .nav1li:hover {
@@ -38,7 +37,7 @@
 }
 
 .navFixed {
-  display:  flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   justify-items: center;
@@ -47,9 +46,8 @@
   background: white;
   color: #aaa;
   padding: 15px 15px 30px;
-  font-family: 'Nova Square', cursive;
+  font-family: "Nova Square", cursive;
   font-size: 17px;
-  
 }
 
 .navFixed ul {
@@ -69,25 +67,25 @@
 .searchIcon {
   display: flex;
   height: 48px;
-  opacity: .25;
+  opacity: 0.25;
   padding: 10px 0 18px;
   width: 48px;
   flex-direction: row;
   justify-content: center;
   margin-top: -10px;
 }
+
 .spanMessage {
   margin-left: -40px;
+  color: black;
 }
+
 .navFli:hover {
   color: black;
 }
+
 .searchIcon:hover {
   opacity: 0.3;
-}
-
-.spanMessage {
-  color: black;
 }
 
 .spanMessage em {
@@ -96,12 +94,12 @@
 
 .hour {
   font-size: 25px;
-  color: #ff4422;
+  color: #f42;
   margin-top: -5px;
 }
 
 .register {
-  background: #00cccc;
+  background: #0ccc;
   color: white;
   height: 35px;
   font-size: 12px;
@@ -124,8 +122,6 @@
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 40px;
- 
-  
 }
 
 .simpleAnchor {
@@ -136,4 +132,52 @@
   width: 100%;
   position: fixed;
   top: 10;
+}
+
+.coverContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+.coverLeft {
+  background: linear-gradient(180deg, rgba(27, 112, 186, 1) 0%, rgba(68, 152, 217, 0.11528361344537819) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 70%;
+  height: 400px;
+  color: white;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.coverLeft a {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.coverRight {
+  flex: 30%;
+  height: 400px;
+  color: white;
+  display: flex;
+  margin: 4px 0;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.coverRight div {
+  margin-bottom: 4px;
+  background-color: rgb(80, 80, 80);
+  height: 200px;
+}
+
+.nameDateShare {
+  display: flex;
+  flex-direction: row;
 }
