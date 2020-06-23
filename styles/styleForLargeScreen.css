@@ -181,3 +181,27 @@
   display: flex;
   flex-direction: row;
 }
+
+
+.advertising1 {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 970px;
+  height: 250px;
+  border:1px solid black;
+}
+.adver1img {
+  width: 400px;
+  text-align: center;
+}
+.adver1img img{
+  display: block;
+}
+
+.adver1img img:first-child {
+  width: 380px;
+}
+
+.adver1img img:last-child {
+  width: 60px;
+}
