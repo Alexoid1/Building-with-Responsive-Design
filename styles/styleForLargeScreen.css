@@ -1,3 +1,139 @@
-h1 {
-  color: aqua;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navTop {
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  width: 100%;
+  height: 32px;
+  background: #131313;
+  color: rgba(255,255,266,0.5);
+  padding: 15px 15px 30px;
+
+}
+.navTop ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navTop ul:first-child {
+  width: 30%;
+}
+
+.navTop ul:last-child {
+  width: 18%;
+}
+
+.liFirst {
+  color:  white;
+}
+
+.nav1li:hover {
+  color: white;
+}
+
+.navFixed {
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  width: 100%;
+  height: 48px;
+  background: white;
+  color: #aaa;
+  padding: 15px 15px 30px;
+  font-family: 'Nova Square', cursive;
+  font-size: 17px;
+  
+}
+
+.navFixed ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.navA {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.searchIcon {
+  display: flex;
+  height: 48px;
+  opacity: .25;
+  padding: 10px 0 18px;
+  width: 48px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -10px;
+}
+.spanMessage {
+  margin-left: -40px;
+}
+.navFli:hover {
+  color: black;
+}
+.searchIcon:hover {
+  opacity: 0.3;
+}
+
+.spanMessage {
+  color: black;
+}
+
+.spanMessage em {
+  color: #555;
+}
+
+.hour {
+  font-size: 25px;
+  color: #ff4422;
+  margin-top: -5px;
+}
+
+.register {
+  background: #00cccc;
+  color: white;
+  height: 35px;
+  font-size: 12px;
+  width: 130px;
+  border: none;
+  margin-top: -5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.register:hover {
+  background: purple;
+}
+
+.yellowContainer {
+  height: 36px;
+  width: 100%;
+  background: #ffe712;
+  padding-top: 5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+ 
+  
+}
+
+.simpleAnchor {
+  text-decoration: none;
+}
+
+.fixedCont {
+  width: 100%;
+  position: fixed;
+  top: 10;
 }
