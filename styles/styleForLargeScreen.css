@@ -146,13 +146,18 @@
   background-size: cover;
   flex: 70%;
   height: 400px;
-  color: white;
   margin: 4px;
+  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   justify-content: space-between;
   padding-left: 25px;
+}
+
+.coverLeft h4 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px 0 0;
 }
 
 .coverLeft a {
@@ -166,15 +171,32 @@
   height: 400px;
   color: white;
   display: flex;
-  margin: 4px 0;
   flex-direction: column;
-  justify-content: space-around;
+  margin: 4px 0;
 }
 
 .coverRight div {
   margin-bottom: 4px;
-  background-color: rgb(80, 80, 80);
   height: 200px;
+}
+
+.rightCoverArticle {
+  background: linear-gradient(180deg, rgba(27, 112, 186, 1) 0%, rgba(68, 152, 217, 0.11528361344537819) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 25px;
+}
+
+.rightCoverArticle a {
+  font-size: 25px;
+  width: 70%;
+  text-decoration: none;
+  color: white;
 }
 
 .nameDateShare {
