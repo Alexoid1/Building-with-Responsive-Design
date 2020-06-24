@@ -267,7 +267,27 @@
 }
 
 .fundImage {
-  transform: scale(0.2);
+  transform: scale(0.95);
+  width: 70px;
+}
+
+.fundShortInfo {
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.fundInfo {
+  width: 260px;
+  color: #555;
+}
+
+.fundLocation {color: rgb(123, 123, 123);}
+
+.fundSimpleHover:hover {
+  cursor: pointer;
 }
 
 .latestFunding #lf-header {
@@ -313,6 +333,7 @@
   height: auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -325,16 +346,15 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  justify-content: space-around;
+  align-items: center;
   color: #fff;
   background: linear-gradient(#f42 50%, #ffece8 50%);
-  height: 100px;
+  height: 90px;
 }
 
 .fundName {
   color: white;
   font-size: 15px;
-  padding-left: 75px;
 }
 
 .fundType {
@@ -344,7 +364,6 @@
 
 .fundType ul {
   list-style: none;
-  padding-left: 75px;
 }
 
 .fundType #amount {
@@ -363,6 +382,10 @@
   flex-direction: row;
   align-items: center;
   padding-left: 10px;
+}
+
+.fundFeatures ul li:hover{
+  color: rgb(148, 148, 148);
 }
 
 main {
