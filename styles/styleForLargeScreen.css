@@ -216,7 +216,12 @@
   flex-direction: row;
 }
 
-.containerSection {
+.conte {
+  width: 1135px;
+  height: 300px;
+}
+
+.containerSection, .latestDeals {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -224,7 +229,7 @@
   justify-content: center;
 }
 
-.newCont img {
+.newCont .imgN1 {
   width: 100%;
   height: 145px;
 }
@@ -402,4 +407,85 @@ hr {
   border-top: 1px solid #ff4421;
   margin: 1em 0;
   padding: 0;
+}
+
+.imgNcontainer {
+  height: 201px;
+  overflow: hidden;
+  display: block;
+  text-align: right;
+}
+.imgNcontainer img {
+  width: 80px;
+  height: 80px;
+  float: right;
+  position: relative;
+}
+
+.yellowCornerText {
+  color:  black;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 5px;
+  transform: rotate(45deg);
+}
+
+.imgText span em {
+  font-size: 15px;
+}
+#background1 {
+  background: url(/images/working.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#background2 {
+  background: url(/images/book.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background3 {
+  background: url(/images/reading.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background4 {
+  background: url(/images/stack.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background4 {
+  background: url(/images/stack.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background5 {
+  background: url(/images/course.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background6 {
+  background: url(/images/edition.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background7 {
+  background: url(/images/notebag.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background8 {
+  background: url(/images/cofee.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
