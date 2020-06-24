@@ -227,3 +227,101 @@
 .adver1img img:last-child {
   width: 60px;
 }
+
+.latestFunding {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1152px;
+}
+
+.latestFunding #lf-header {
+  /* background-color: lawngreen; */
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lf-header-left {
+}
+
+.lf-header-left h2 {
+  color: #FF4421;
+}
+
+.lf-header-right {
+}
+
+.lf-header-right ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lf-header-right ul li {
+  flex-grow: 1;
+    flex-basis: auto;
+    margin: .25em 0;
+    padding: 0 1em;
+    text-align: center;
+    border-right: 1px solid #FF4421;
+    color: #FF4421;
+}
+
+.headerHover:hover {
+  color: #111;
+}
+
+.latestFunding #lf-content {
+  background-color: lawngreen;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.latestFunding #lf-content div {
+  margin: 10px;
+  border-style: ridge;
+  background-color: #FFFAF9;
+}
+
+.fundName {
+  color: #ccc;
+  font-size: 30px;
+}
+
+.fundType #amount {
+  font-size: 20px;
+}
+
+.fundingRound {
+  display: flex;
+  flex-direction: column;
+}
+
+.fundFeatures ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
