@@ -1,3 +1,268 @@
 h1 {
   color: #932626;
 }
+
+
+
+
+
+
+
+/* Latest fundings part */
+.latestFunding {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1176px;
+}
+
+.fundImage {
+  transform: scale(0.95);
+  width: 70px;
+}
+
+.fundShortInfo {
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.fundInfo {
+  width: 260px;
+  color: #555;
+}
+
+.fundLocation {
+  color: rgb(123, 123, 123);
+}
+
+.fundSimpleHover:hover {
+  cursor: pointer;
+}
+
+.latestFunding #lf-header {
+  /* background-color: lawngreen; */
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  font-family: Helvetica, sans-serif;
+}
+
+.lf-header-left h2 {
+  color: #ff4421;
+}
+
+.lf-header-right ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lf-header-right ul li {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: 0.25em 0;
+  padding: 0 1em;
+  text-align: center;
+  border-right: 1px solid #ff4421;
+  color: #ff4421;
+}
+
+.headerHover:hover {
+  color: #111;
+}
+
+.latestFunding #lf-content {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latestFunding #lf-content div {
+  margin: 5px;
+}
+
+.fundWholeHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  background: linear-gradient(#f42 50%, #ffece8 50%);
+  height: 90px;
+}
+
+.fundName {
+  color: white;
+  font-size: 15px;
+}
+
+.fundType {
+  padding-top: 10px;
+  color: #111;
+}
+
+.fundType ul {
+  list-style: none;
+}
+
+.fundType #amount {
+  font-size: 20px;
+}
+
+.fundingRound {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffaf9;
+}
+
+.fundFeatures ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.fundFeatures ul li:hover {
+  color: rgb(148, 148, 148);
+}
+
+
+
+/* Highlights part */
+.latestHighlights {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1176px;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+  height: 700px;
+  margin: 10px;
+}
+
+.hl-title {
+  color: #ff4421;
+  margin: 20px 0;
+}
+
+.hl-title:hover {
+  color: #575757;
+}
+
+.hl-header {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8981967787114846) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
+  height: 260px;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 10px 10px;
+}
+
+.nameAndDate span {
+  size: 1rem;
+  color: rgb(131, 131, 131);
+}
+
+.nameAndDate a {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+}
+
+.nameAndDate a:hover {
+  color: #fff;
+}
+
+.hl-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hl-latest-news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffece8;
+  margin-top: 5px;
+  width: 365px;
+}
+
+.hl-latest-news #newsInfo {
+  width: 230px;
+  padding: 10px;
+  color: #ff4421;
+}
+
+.hl-latest-news #newsInfo a {
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #ff4421;
+}
+
+.hl-latest-news #newsInfo a:hover {
+  text-decoration: underline;
+}
+
+.hl-latest-news #newsImage {
+  padding-right: 10px;
+}
+
+.hl-latest-news #newsImage img {
+  transform: scale(1.18);
+}
+
+.hl-news {
+  margin: 0 18px;
+}
+
+.hl-news ul li {
+  border-bottom: 1px solid rgb(169, 169, 169);
+  margin: 20px 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.hl-news ul li::before {
+  content: "\2022";
+  color: #ff4421;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.hl-news ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.hl-news ul li a:hover {
+  color: rgb(0, 0, 0);
+}
