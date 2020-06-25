@@ -3,20 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 
-
-
-
-
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Latest fundings part */
 .latestFunding {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 1176px;
+  width: 846px;
+  margin-left: 40px;
+}
+
+#fundVisibility {
+  display: none;
 }
 
 .fundImage {
@@ -47,31 +52,37 @@
 
 .latestFunding #lf-header {
   /* background-color: lawngreen; */
-  height: 30px;
+  height: 60px;
   display: flex;
-  justify-content: space-between;
-  margin: 0 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 10px;
   font-family: Helvetica, sans-serif;
+  margin-bottom: 50px;
 }
 
 .lf-header-left h2 {
   color: #ff4421;
 }
 
+.lf-header-right {
+  width: 450px;
+}
+
 .lf-header-right ul {
   list-style-type: none;
   display: flex;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .lf-header-right ul li {
   flex-grow: 1;
   flex-basis: auto;
-  margin: 0.25em 0;
   padding: 0 1em;
-  text-align: center;
   border-right: 1px solid #ff4421;
   color: #ff4421;
 }
@@ -106,15 +117,20 @@
 .fundName {
   color: white;
   font-size: 15px;
+  height: 40px;
 }
 
 .fundType {
-  padding-top: 10px;
   color: #111;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .fundType ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .fundType #amount {
@@ -127,19 +143,22 @@
   background-color: #fffaf9;
 }
 
+.fundFeatures ul {
+  padding: 0;
+  margin: 0;
+}
+
 .fundFeatures ul li {
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 10px;
+  padding: 8px;
 }
 
 .fundFeatures ul li:hover {
   color: rgb(148, 148, 148);
 }
-
-
 
 /* Highlights part */
 .latestHighlights {
@@ -148,8 +167,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 1176px;
+  width: 976px;
   margin-bottom: 50px;
+  margin-left: 40px;
 }
 
 .highlight {
@@ -157,12 +177,13 @@
   flex-direction: column;
   width: 365px;
   height: 700px;
-  margin: 10px;
+  margin: 37px;
+  transform: scale(1.15);
 }
 
 .hl-title {
   color: #ff4421;
-  margin: 20px 0;
+  margin: 0;
 }
 
 .hl-title:hover {
@@ -176,7 +197,7 @@
       rgba(255, 255, 255, 0) 100%
     ),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
-  height: 260px;
+  height: 660px;
   background-repeat: no-repeat;
   color: #fff;
   display: flex;
@@ -218,13 +239,21 @@
 }
 
 .hl-latest-news #newsInfo {
-  width: 230px;
-  padding: 10px;
+  width: 200px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
   color: #ff4421;
 }
 
+.hl-latest-news #newsInfo h4 {
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
 .hl-latest-news #newsInfo a {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-decoration: none;
   color: #ff4421;
 }
@@ -242,7 +271,7 @@
 }
 
 .hl-news {
-  margin: 0 18px;
+  margin: 0 2px;
 }
 
 .hl-news ul li {
@@ -252,13 +281,17 @@
   text-decoration: none;
 }
 
+.hl-news ul {
+  padding: 0;
+  margin: 0;
+}
+
 .hl-news ul li::before {
   content: "\2022";
   color: #ff4421;
   font-weight: bold;
   display: inline-block;
   width: 1em;
-  margin-left: -1em;
 }
 
 .hl-news ul li a {
@@ -269,8 +302,6 @@
 .hl-news ul li a:hover {
   color: rgb(0, 0, 0);
 }
-||||||| merged common ancestors
-=======
 
 .navTop {
   display: flex;
@@ -464,4 +495,3 @@ header {
 
 
 
->>>>>>> 317aa17dedc61c683fbab876dacab90bd7e22aec
