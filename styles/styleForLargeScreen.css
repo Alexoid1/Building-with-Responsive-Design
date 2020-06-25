@@ -158,8 +158,7 @@ header {
 .coverContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 128px;
-  margin-bottom: 250px;
+  margin-bottom: 120px;
   width: 100%;
 }
 
@@ -550,9 +549,13 @@ header {
 }
 
 main {
+  max-width:1700px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-self: start;
+  align-items: center;
+  height: auto;
   
 }
 
