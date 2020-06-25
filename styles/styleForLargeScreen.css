@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body {
+  position: absolute;
+}
 .navTop {
   display: flex;
   flex-direction: row;
@@ -14,7 +17,7 @@
   background: #131313;
   color: rgba(255, 255, 266, 0.5);
   padding: 15px 15px 30px;
-  font-size: 12px;
+  font-size: 15px;
 }
 .navTop ul {
   list-style: none;
@@ -23,11 +26,11 @@
   justify-content: space-around;
 }
 .navTop ul:first-child {
-  width: 30%;
+  width: 500px;
 }
 
 .navTop ul:last-child {
-  width: 18%;
+  width: 350px;
 }
 
 .liFirst {
@@ -58,13 +61,21 @@
   flex-direction: row;
   justify-content: space-around;
   width: 42%;
+  
+  
+ 
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
 }
 
 .fixedCont {
   width: 100%;
-  position: fixed;
-  top: 10;
-  z-index: 2;
+
 }
 
 .navA {
@@ -86,7 +97,7 @@
 }
 
 .spanMessage {
-  margin-left: -40px;
+  width: 25%;
   color: black;
 }
 
@@ -242,9 +253,9 @@
 }
 
 .newSection {
-  max-width: 1135px;
+  width: 1135px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(229px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(221px, 1fr));
   grid-gap: 40px;
 }
 
@@ -549,7 +560,7 @@ hr {
   text-align: right;
 }
 .imgNcontainer img {
-  width: 80px;
+  width: 30%;
   height: 80px;
   float: right;
   position: relative;
@@ -718,4 +729,13 @@ hr {
   font-weight: bolder;
   color: #ff4421;
   
+}
+.cornerlogo {
+  display: none;
+}
+
+@media (max-width: 1114px){
+  .spanMessage, .hour, .register {
+    display: none;
+  }
 }
