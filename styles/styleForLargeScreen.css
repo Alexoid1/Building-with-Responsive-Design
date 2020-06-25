@@ -153,18 +153,18 @@ header {
 }
 
 
-
 .coverContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 80px;
+  margin-top: 128px;
   margin-bottom: 250px;
+  width: 100%;
 }
 
 .coverLeft {
   background: linear-gradient(
       180deg,
-      rgba(27, 112, 186, 1) 0%,
+      #f42 0%,
       rgba(68, 152, 217, 0.11528361344537819) 100%
     ),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
@@ -175,21 +175,75 @@ header {
   margin: 4px;
   color: white;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 25px;
 }
 
-.coverLeft h4 {
+.coverImage1AndDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coverImage1AndDate img {
+  max-width: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.coverImage1AndDate h4 {
   display: flex;
   justify-content: flex-end;
   padding: 20px 20px 0 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
 }
 
-.coverLeft a {
+.articleNameAndIcons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.articleNameAndIcons h3 {
+  size: 10px;
+  padding-left: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.articleNameAndIcons #article1Name {
   font-size: 50px;
   text-decoration: none;
   color: white;
+  font-family: 'Barlow', sans-serif;
+  padding-left: 20px;
+  padding-bottom: 1px;
+}
+
+.articleNameAndIcons div {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #aaa;
+}
+
+.articleNameAndIcons ul {
+  margin: 0;
+  padding: 0;
+  display: table;   /* Allow the centering to work */
+}
+
+.articleNameAndIcons div ul li {
+  display: inline;
+  margin: 0 11px 0 0;
+}
+
+.articleNameAndIcons #article1Writer {
+  color: #aaa;
+  text-decoration: none;
 }
 
 .coverRight {
@@ -206,7 +260,7 @@ header {
   height: 200px;
 }
 
-.rightCoverArticle {
+.rightCoverArticle1 {
   background: linear-gradient(
       180deg,
       rgba(27, 112, 186, 1) 0%,
@@ -221,18 +275,100 @@ header {
   justify-content: flex-end;
   align-items: flex-start;
   padding-left: 25px;
+  padding-bottom: 25px;
 }
 
-.rightCoverArticle a {
+.rightCoverArticle1 #article2Name {
+  font-size: 25px;
+  width: 400px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.rightCoverArticle1 a {
   font-size: 25px;
   width: 70%;
   text-decoration: none;
   color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.rightCoverArticle2 {
+  background: linear-gradient(
+      180deg,
+      rgba(27, 112, 186, 1) 0%,
+      rgba(68, 152, 217, 0.11528361344537819) 100%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25px;
+}
+
+.articleNameAndIcons2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.articleNameAndIcons2 h3 {
+  size: 10px;
+  padding-left: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.articleNameAndIcons2 #article1Name {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  padding-left: 20px;
+  padding-bottom: 1px;
+}
+
+.articleNameAndIcons2 div {
+  padding-left: 3px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #aaa;
+}
+
+.articleNameAndIcons2 ul {
+  margin: 0;
+  padding: 0;
+  display: table;   /* Allow the centering to work */
+}
+
+.articleNameAndIcons2 div ul li {
+  display: inline;
+  margin: 0 11px 0 0;
+}
+
+.articleNameAndIcons2 #article1Writer {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.rightCoverArticle2 #article3Name {
+  font-size: 25px;
+  width: 400px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow', sans-serif;
 }
 
 .nameDateShare {
   display: flex;
   flex-direction: row;
+  font-family: 'Raleway', sans-serif;
 }
 
 .conte {
