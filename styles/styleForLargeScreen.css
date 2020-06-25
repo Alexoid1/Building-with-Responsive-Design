@@ -14,6 +14,7 @@
   background: #131313;
   color: rgba(255, 255, 266, 0.5);
   padding: 15px 15px 30px;
+  font-size: 12px;
 }
 .navTop ul {
   list-style: none;
@@ -48,7 +49,7 @@
   color: #aaa;
   padding: 15px 15px 30px;
   font-family: "Nova Square", cursive;
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .navFixed ul {
@@ -56,7 +57,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 50%;
+  width: 42%;
+}
+
+.fixedCont {
+  width: 100%;
+  position: fixed;
+  top: 10;
+  z-index: 2;
 }
 
 .navA {
@@ -67,13 +75,14 @@
 
 .searchIcon {
   display: flex;
-  height: 48px;
+  height: 38px;
   opacity: 0.25;
   padding: 10px 0 18px;
-  width: 48px;
+  width: 38px;
   flex-direction: row;
   justify-content: center;
   margin-top: -10px;
+  margin-left: 10px;
 }
 
 .spanMessage {
@@ -130,16 +139,13 @@
   color: black;
 }
 
-.fixedCont {
-  width: 100%;
-  position: fixed;
-  top: 10;
-}
+
 
 .coverContainer {
   display: flex;
   flex-direction: row;
   margin-top: 80px;
+  margin-bottom: 250px;
 }
 
 .coverLeft {
@@ -304,13 +310,11 @@
   display: flex;
   justify-content: space-between;
   margin: 0 10px;
+  font-family: Helvetica, sans-serif;
 }
 
 .lf-header-left h2 {
   color: #ff4421;
-}
-
-.lf-header-right {
 }
 
 .lf-header-right ul {
@@ -417,6 +421,7 @@ hr {
   justify-content: center;
   align-items: center;
   width: 1176px;
+  margin-bottom: 50px ;
 }
 
 .highlight {
@@ -622,6 +627,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .socialIconsContainer {
@@ -700,4 +706,16 @@ hr {
   border-radius: 70px;
   box-shadow: 0 0 5px #888;
   padding: 0.65em 0.8em;
+}
+
+.lf-header2 {
+  width: 1135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #ff4421;
+  
 }
