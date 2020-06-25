@@ -75,7 +75,9 @@ header {
 
 .fixedCont {
   width: 100%;
-
+  top: 10;
+  position: fixed;
+  z-index: 2;
 }
 
 .navA {
@@ -432,7 +434,7 @@ hr {
   justify-content: center;
   align-items: center;
   width: 1176px;
-  margin-bottom: 50px ;
+  margin-bottom: 50px;
 }
 
 .highlight {
