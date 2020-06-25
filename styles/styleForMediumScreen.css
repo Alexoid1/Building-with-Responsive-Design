@@ -15,6 +15,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 846px;
+  margin-left: 40px;
 }
 
 #fundVisibility {
@@ -60,10 +61,6 @@ main {
 
 .lf-header-left h2 {
   color: #ff4421;
-}
-
-.lf-header-left h2 b {
-  display: none;
 }
 
 .lf-header-right {
@@ -161,8 +158,6 @@ main {
   color: rgb(148, 148, 148);
 }
 
-
-
 /* Highlights part */
 .latestHighlights {
   display: flex;
@@ -170,8 +165,9 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 1176px;
+  width: 976px;
   margin-bottom: 50px;
+  margin-left: 40px;
 }
 
 .highlight {
@@ -179,12 +175,13 @@ main {
   flex-direction: column;
   width: 365px;
   height: 700px;
-  margin: 10px;
+  margin: 37px;
+  transform: scale(1.15);
 }
 
 .hl-title {
   color: #ff4421;
-  margin: 20px 0;
+  margin: 0;
 }
 
 .hl-title:hover {
@@ -198,7 +195,7 @@ main {
       rgba(255, 255, 255, 0) 100%
     ),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
-  height: 260px;
+  height: 660px;
   background-repeat: no-repeat;
   color: #fff;
   display: flex;
@@ -240,13 +237,21 @@ main {
 }
 
 .hl-latest-news #newsInfo {
-  width: 230px;
-  padding: 10px;
+  width: 200px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
   color: #ff4421;
 }
 
+.hl-latest-news #newsInfo h4 {
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
 .hl-latest-news #newsInfo a {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-decoration: none;
   color: #ff4421;
 }
@@ -264,7 +269,7 @@ main {
 }
 
 .hl-news {
-  margin: 0 18px;
+  margin: 0 2px;
 }
 
 .hl-news ul li {
@@ -274,13 +279,17 @@ main {
   text-decoration: none;
 }
 
+.hl-news ul {
+  padding: 0;
+  margin: 0;
+}
+
 .hl-news ul li::before {
   content: "\2022";
   color: #ff4421;
   font-weight: bold;
   display: inline-block;
   width: 1em;
-  margin-left: -1em;
 }
 
 .hl-news ul li a {
