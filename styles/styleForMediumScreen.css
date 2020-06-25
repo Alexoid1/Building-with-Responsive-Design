@@ -447,7 +447,7 @@ header {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(3 ,minmax(235px,1fr));
-  grid-gap: 25px;
+  grid-gap: 20px;
   
 }
 
@@ -475,12 +475,11 @@ header {
 }
 
 .lf-header2 {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: right;
   margin-bottom: 20px;
-  margin-left: 50px;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
   color: #ff4421;

@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-.navTop {
+.navTop ul{
   display: none;
   
 }
@@ -240,7 +239,6 @@ header {
   background-size: cover;
 }
 
-=======
 
 /* Latest fundings part */
 .latestFunding {
@@ -536,4 +534,3 @@ header {
 .hl-news ul li a:hover {
   color: rgb(0, 0, 0);
 }
->>>>>>> 0aee238d88176b1ef5b1bd2869f0d5b3243fdbdd
