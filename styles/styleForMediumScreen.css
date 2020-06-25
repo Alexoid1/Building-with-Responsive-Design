@@ -337,6 +337,9 @@ main {
   color: white;
 }
 
+.cornerlogo:hover {
+   background: url(../images/home-1.gif) no-repeat center center cover;
+}
 .navFixed {
   display: flex;
   flex-direction: row;
@@ -402,27 +405,6 @@ header {
   opacity: 0.3;
 }
 
-.spanMessage em {
-  color: #555;
-}
-
-
-.register {
-  background: #0ccc;
-  color: white;
-  height: 35px;
-  font-size: 12px;
-  width: 130px;
-  border: none;
-  margin-top: -5px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.register:hover {
-  background: purple;
-}
-
 .yellowContainer {
   height: 36px;
   width: 100%;
@@ -462,10 +444,11 @@ header {
 }
 
 .newSection {
-  width: 100%;
+  width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 25px;
+  grid-template-columns: repeat(3 ,minmax(235px,1fr));
+  grid-gap: 20px;
+  
 }
 
 .imgText a {
@@ -491,7 +474,89 @@ header {
   width: 60px;
 }
 
+.lf-header2 {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #ff4421;
+}
 
+.imgNcontainer {
+  height: 150px;
+  overflow: hidden;
+  display: block;
+  text-align: right;
+  
+}
+.imgNcontainer img {
+  width: 25%;
+  height: 43%;
+  float: right;
+  position: relative;
+}
+
+.yellowCornerText {
+  display: none;
+
+}
+
+#background1 {
+  background: url(../images/working.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background2 {
+  background: url(../images/book.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background3 {
+  background: url(../images/reading.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background4 {
+  background: url(../images/stack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background4 {
+  background: url(../images/stack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background5 {
+  background: url(../images/course.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background6 {
+  background: url(../images/edition.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background7 {
+  background: url(../images/notebag.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background8 {
+  background: url(../images/cofee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 

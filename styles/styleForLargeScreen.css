@@ -65,9 +65,13 @@ body {
   
  
 }
+body {
+  width: auto;
+  height: auto;
+}
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 999;
   width: 100%;
@@ -75,9 +79,7 @@ header {
 
 .fixedCont {
   width: 100%;
-  top: 10;
-  position: fixed;
-  z-index: 2;
+  
 }
 
 .navA {
@@ -551,7 +553,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  
 }
 
 hr {
@@ -872,8 +874,3 @@ hr {
   display: none;
 }
 
-@media (max-width: 1114px){
-  .spanMessage, .hour, .register {
-    display: none;
-  }
-}
