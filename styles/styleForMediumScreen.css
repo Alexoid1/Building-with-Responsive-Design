@@ -2,18 +2,23 @@ h1 {
   color: #932626;
 }
 
-
-
-
-
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Latest fundings part */
 .latestFunding {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 1176px;
+  width: 846px;
+}
+
+#fundVisibility {
+  display: none;
 }
 
 .fundImage {
@@ -44,31 +49,41 @@ h1 {
 
 .latestFunding #lf-header {
   /* background-color: lawngreen; */
-  height: 30px;
+  height: 60px;
   display: flex;
-  justify-content: space-between;
-  margin: 0 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 10px;
   font-family: Helvetica, sans-serif;
+  margin-bottom: 50px;
 }
 
 .lf-header-left h2 {
   color: #ff4421;
 }
 
+.lf-header-left h2 b {
+  display: none;
+}
+
+.lf-header-right {
+  width: 450px;
+}
+
 .lf-header-right ul {
   list-style-type: none;
   display: flex;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .lf-header-right ul li {
   flex-grow: 1;
   flex-basis: auto;
-  margin: 0.25em 0;
   padding: 0 1em;
-  text-align: center;
   border-right: 1px solid #ff4421;
   color: #ff4421;
 }
@@ -103,15 +118,20 @@ h1 {
 .fundName {
   color: white;
   font-size: 15px;
+  height: 40px;
 }
 
 .fundType {
-  padding-top: 10px;
   color: #111;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .fundType ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .fundType #amount {
@@ -124,12 +144,17 @@ h1 {
   background-color: #fffaf9;
 }
 
+.fundFeatures ul {
+  padding: 0;
+  margin: 0;
+}
+
 .fundFeatures ul li {
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 10px;
+  padding: 8px;
 }
 
 .fundFeatures ul li:hover {

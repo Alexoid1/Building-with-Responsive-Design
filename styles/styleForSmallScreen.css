@@ -1,3 +1,145 @@
 h1 {
   color: red;
 }
+
+
+
+/* Latest fundings part */
+.latestFunding {
+  display: flex;
+  flex-direction: column;
+  width: 846px;
+}
+
+#fundVisibility {
+  display: none;
+}
+
+.fundImage {
+  transform: scale(0.95);
+  width: 70px;
+}
+
+.fundShortInfo {
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.fundInfo {
+  width: 260px;
+  color: #555;
+}
+
+.fundLocation {
+  color: rgb(123, 123, 123);
+}
+
+.fundSimpleHover:hover {
+  cursor: pointer;
+}
+
+.latestFunding #lf-header {
+  /* background-color: lawngreen; */
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 10px;
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+
+.lf-header-left h2 {
+  color: #ff4421;
+}
+
+.lf-header-left h2 b {
+  display: none;
+}
+
+.lf-header-right {
+  width: 450px;
+}
+
+.lf-header-right ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lf-header-right ul li {
+  flex-grow: 1;
+  flex-basis: auto;
+  padding: 0 1em;
+  border-right: 1px solid #ff4421;
+  color: #ff4421;
+}
+
+.headerHover:hover {
+  color: #111;
+}
+
+.latestFunding #lf-content {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latestFunding #lf-content div {
+  margin: 5px;
+}
+
+.fundWholeHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  background: linear-gradient(#f42 50%, #ffece8 50%);
+  height: 90px;
+}
+
+.fundName {
+  color: white;
+  font-size: 15px;
+}
+
+.fundType {
+  padding-top: 10px;
+  color: #111;
+}
+
+.fundType ul {
+  list-style: none;
+}
+
+.fundType #amount {
+  font-size: 20px;
+}
+
+.fundingRound {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffaf9;
+}
+
+.fundFeatures ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.fundFeatures ul li:hover {
+  color: rgb(148, 148, 148);
+}
+
