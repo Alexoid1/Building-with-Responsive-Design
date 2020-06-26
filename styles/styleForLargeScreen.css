@@ -196,7 +196,7 @@ header {
   display: flex;
   justify-content: flex-end;
   padding: 20px 20px 0 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
 }
 
@@ -209,14 +209,14 @@ header {
 .articleNameAndIcons h3 {
   size: 10px;
   padding-left: 22px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .articleNameAndIcons #article1Name {
   font-size: 50px;
   text-decoration: none;
   color: white;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   padding-left: 20px;
   padding-bottom: 1px;
 }
@@ -224,7 +224,7 @@ header {
 .articleNameAndIcons div {
   padding-left: 25px;
   padding-bottom: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   color: #aaa;
 }
@@ -232,7 +232,7 @@ header {
 .articleNameAndIcons ul {
   margin: 0;
   padding: 0;
-  display: table;   /* Allow the centering to work */
+  display: table; /* Allow the centering to work */
 }
 
 .articleNameAndIcons div ul li {
@@ -273,12 +273,13 @@ header {
   padding-bottom: 15px;
 }
 
-.rightCoverArticle #article2Name, #article3Name {
+.rightCoverArticle #article2Name,
+#article3Name {
   font-size: 25px;
   width: 400px;
   text-decoration: none;
   color: white;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 .rightCoverArticle a {
@@ -286,7 +287,7 @@ header {
   width: 70%;
   text-decoration: none;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .articleNameAndIcons2 {
@@ -299,14 +300,14 @@ header {
 
 .articleNameAndIcons2 h3 {
   size: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .articleNameAndIcons2 #article1Name {
   font-size: 50px;
   text-decoration: none;
   color: white;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   padding-left: 20px;
   padding-bottom: 1px;
 }
@@ -315,7 +316,7 @@ header {
   padding-left: 3px;
   padding-top: 5px;
   padding-bottom: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   color: #aaa;
   height: 10px;
@@ -324,7 +325,7 @@ header {
 .articleNameAndIcons2 ul {
   margin: 0;
   padding: 0;
-  display: table;   /* Allow the centering to work */
+  display: table; /* Allow the centering to work */
 }
 
 .articleNameAndIcons2 div ul li {
@@ -332,7 +333,8 @@ header {
   margin: 0 11px 0 0;
 }
 
-.articleNameAndIcons2 #article2Writer, #article3Writer {
+.articleNameAndIcons2 #article2Writer,
+#article3Writer {
   color: #aaa;
   text-decoration: none;
   font-size: 1em;
@@ -347,7 +349,7 @@ header {
 .nameDateShare {
   display: flex;
   flex-direction: row;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .conte {
@@ -778,7 +780,6 @@ hr {
   display: inline;
   color: rgb(121, 121, 121);
   padding: 10px;
-
 }
 
 .footerHover:hover {
@@ -848,9 +849,7 @@ hr {
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
   color: #ff4421;
-  
 }
 .cornerlogo {
   display: none;
 }
-
