@@ -39,20 +39,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100px
-  
-  
-  ;
+  width: 100px;
+}
+
+body {
+  width: auto;
+  height: auto;
 }
 
 header {
   width: 100%;
-  position: fixed;
-  top: 10;
+  position: sticky;
+  top: 0;
   z-index: 2;
-}
-.fixedCont {
-  width: 100%;
 }
 
 .navA {
@@ -111,7 +110,234 @@ header {
   background: url(../images/apple-touch-icon-76x76.png)no-repeat center;
 }
 
+.coverContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
+.coverLeft {
+  background: linear-gradient(
+      180deg,
+      #f42 0%,
+      rgba(68, 152, 217, 0.11528361344537819) 100%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 70%;
+  height: 250px;
+  margin: 4px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coverImage1AndDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coverImage1AndDate img {
+  max-width: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.coverImage1AndDate h4 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px 0 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.articleNameAndIcons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.articleNameAndIcons h3 {
+  size: 10px;
+  padding-left: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.articleNameAndIcons #article1Name {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  padding-left: 20px;
+  padding-bottom: 1px;
+}
+
+.articleNameAndIcons div {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #aaa;
+}
+
+.articleNameAndIcons ul {
+  margin: 0;
+  padding: 0;
+  display: table;   /* Allow the centering to work */
+}
+
+.articleNameAndIcons div ul li {
+  display: inline;
+  margin: 0 11px 0 0;
+}
+
+.articleNameAndIcons #article1Writer {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.coverRight {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.coverRight div {
+  margin-bottom: 4px;
+  height: 125px;
+}
+
+.rightCoverArticle1 {
+  background: linear-gradient(
+      180deg,
+      rgba(27, 112, 186, 1) 0%,
+      rgba(68, 152, 217, 0.11528361344537819) 100%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+.rightCoverArticle1 #article2Name {
+  font-size: 25px;
+  width: 400px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.rightCoverArticle1 a {
+  font-size: 25px;
+  width: 70%;
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.rightCoverArticle2 {
+  background: linear-gradient(
+      180deg,
+      rgba(27, 112, 186, 1) 0%,
+      rgba(68, 152, 217, 0.11528361344537819) 100%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25px;
+}
+
+.articleNameAndIcons2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.articleNameAndIcons2 h3 {
+  size: 10px;
+  padding-left: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.articleNameAndIcons2 #article1Name {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  padding-left: 20px;
+  padding-bottom: 1px;
+}
+
+.articleNameAndIcons2 div {
+  padding-left: 3px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #aaa;
+}
+
+.articleNameAndIcons2 ul {
+  margin: 0;
+  padding: 0;
+  display: table;   /* Allow the centering to work */
+}
+
+.articleNameAndIcons2 div ul li {
+  display: inline;
+  margin: 0 11px 0 0;
+}
+
+.articleNameAndIcons2 #article1Writer {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.rightCoverArticle2 #article3Name {
+  font-size: 25px;
+  width: 400px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.nameDateShare {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.containerSection,
+.latestDeals {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+
+.newSection {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px; 
+  margin-top: 80px;
+}
 
 .imgN1 {
   width: 75px;
