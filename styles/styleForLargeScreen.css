@@ -529,11 +529,13 @@ header {
 }
 
 main {
+  max-width: 1700px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-self: start;
   align-items: center;
+  height: auto;
 }
 
 hr {
