@@ -19,6 +19,7 @@
 .cornerlogo:hover {
   background: url(../images/home-1.gif) no-repeat center center cover;
 }
+
 .navFixed {
   display: flex;
   flex-direction: row;
@@ -102,6 +103,7 @@ header {
   text-decoration: none;
   color: black;
 }
+
 .cornerlogo {
   display: block;
   margin-top: -10px;
@@ -614,7 +616,6 @@ main {
   align-items: center;
   width: 90%;
   margin-bottom: 1280px;
-
   margin-top: 1250px;
   transform: scale(1.4);
 }
@@ -637,12 +638,7 @@ main {
 }
 
 .hl-header {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8981967787114846) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8981967787114846) 0%, rgba(255, 255, 255, 0) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
   height: 660px;
   background-repeat: no-repeat;
   color: #fff;
@@ -815,6 +811,7 @@ main {
   width: 250px;
   color: white;
 }
+
 .social-icons {
   display: flex;
   justify-content: center;
