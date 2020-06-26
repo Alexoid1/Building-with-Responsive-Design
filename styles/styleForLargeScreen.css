@@ -29,6 +29,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
 .fundType ul {
   list-style: none;
 }
@@ -404,6 +405,11 @@ header {
   font-size: 11px;
 }
 
+.nameAndDate a {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+}
+
 .imgText a:hover {
   color: #f42;
 }
@@ -503,8 +509,6 @@ header {
   color: #111;
 }
 
-
-
 .fundType .amount {
   font-size: 20px;
 }
@@ -565,13 +569,7 @@ hr {
   color: #575757;
 }
 
-.hl-header {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8981967787114846) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
+.hl-header {background: linear-gradient(0deg, rgba(0, 0, 0, 0.8981967787114846) 0%, rgba(255, 255, 255, 0) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
   height: 260px;
   background-repeat: no-repeat;
   color: #fff;
@@ -584,11 +582,6 @@ hr {
 
 .nameAndDate span {
   size: 1rem;
-  color: rgb(131, 131, 131);
-}
-
-.nameAndDate a {
-  text-decoration: none;
   color: rgb(131, 131, 131);
 }
 
