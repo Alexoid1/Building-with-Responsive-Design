@@ -506,7 +506,7 @@ header {
   list-style: none;
 }
 
-.fundType #amount {
+.fundType .amount {
   font-size: 20px;
 }
 
@@ -622,27 +622,27 @@ hr {
   width: 365px;
 }
 
-.hl-latest-news #newsInfo {
+.hl-latest-news .newsInfo {
   width: 230px;
   padding: 10px;
   color: #ff4421;
 }
 
-.hl-latest-news #newsInfo a {
+.hl-latest-news .newsInfo a {
   font-size: 0.7rem;
   text-decoration: none;
   color: #ff4421;
 }
 
-.hl-latest-news #newsInfo a:hover {
+.hl-latest-news .newsInfo a:hover {
   text-decoration: underline;
 }
 
-.hl-latest-news #newsImage {
+.hl-latest-news .newsImage {
   padding-right: 10px;
 }
 
-.hl-latest-news #newsImage img {
+.hl-latest-news .newsImage img {
   transform: scale(1.18);
 }
 

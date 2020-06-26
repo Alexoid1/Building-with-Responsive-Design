@@ -555,7 +555,7 @@ main {
   align-items: center;
   color: #fff;
   background: linear-gradient(#f42 50%, #ffece8 50%);
-  height: 90px;
+  height: 110px;
 }
 
 .fundName {
@@ -577,7 +577,7 @@ main {
   padding-bottom: 10px;
 }
 
-.fundType #amount {
+.fundType .amount {
   font-size: 20px;
 }
 
@@ -685,7 +685,7 @@ main {
   width: 100%;
 }
 
-.hl-latest-news #newsInfo {
+.hl-latest-news .newsInfo {
   float: left;
   width: 100%;
   height: 100%;
@@ -694,23 +694,23 @@ main {
   color: #ff4421;
 }
 
-.hl-latest-news #newsInfo h4 {
+.hl-latest-news .newsInfo h4 {
   height: 20px;
   margin: 0;
   padding: 0;
 }
 
-.hl-latest-news #newsInfo a {
+.hl-latest-news .newsInfo a {
   font-size: 0.9rem;
   text-decoration: none;
   color: #ff4421;
 }
 
-.hl-latest-news #newsInfo a:hover {
+.hl-latest-news .newsInfo a:hover {
   text-decoration: underline;
 }
 
-.hl-latest-news #newsImage {
+.hl-latest-news .newsImage {
   display: flex;
   justify-content: flex-end;
   width: 100%;

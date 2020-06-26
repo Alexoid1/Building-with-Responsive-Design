@@ -211,7 +211,6 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-left: 40px;
 }
 
 #fundVisibility {
@@ -294,8 +293,11 @@ main {
   height: auto;
   display: grid;
   grid-template-columns: repeat(3, minmax(253px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 0;
   margin-bottom: 70px;
+  width: 100%;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .latestFunding #lf-content div {
@@ -331,7 +333,7 @@ main {
   padding-bottom: 10px;
 }
 
-.fundType #amount {
+.fundType .amount {
   font-size: 13px;
 }
 
@@ -367,9 +369,8 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 976px;
+  width: 100%;
   margin-bottom: 50px;
-  margin-left: 40px;
 }
 
 .highlight {
@@ -377,8 +378,8 @@ main {
   flex-direction: column;
   width: 365px;
   height: 700px;
-  margin: 37px;
-  transform: scale(1.15);
+  margin: 10px;
+  transform: scale(1);
   padding-top: 30px;
 }
 
@@ -441,7 +442,7 @@ main {
   width: 95%;
 }
 
-.hl-latest-news #newsInfo {
+.hl-latest-news .newsInfo {
   width: 200px;
   height: 70px;
   padding-left: 10px;
@@ -449,27 +450,27 @@ main {
   color: #ff4421;
 }
 
-.hl-latest-news #newsInfo h4 {
+.hl-latest-news .newsInfo h4 {
   height: 20px;
   margin: 0;
   padding: 0;
 }
 
-.hl-latest-news #newsInfo a {
+.hl-latest-news .newsInfo a {
   font-size: 0.9rem;
   text-decoration: none;
   color: #ff4421;
 }
 
-.hl-latest-news #newsInfo a:hover {
+.hl-latest-news .newsInfo a:hover {
   text-decoration: underline;
 }
 
-.hl-latest-news #newsImage {
+.hl-latest-news .newsImage {
   padding-right: 10px;
 }
 
-.hl-latest-news #newsImage img {
+.hl-latest-news .newsImage img {
   transform: scale(1.18);
 }
 
