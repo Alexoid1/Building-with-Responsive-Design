@@ -1,5 +1,5 @@
 
-# Design Teardown
+# Building with Responsive Design
 
 > Microverse Collaborative Project (Ramin and Alexes)
 
