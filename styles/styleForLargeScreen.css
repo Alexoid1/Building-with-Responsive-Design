@@ -6,6 +6,8 @@
 
 body {
   position: absolute;
+  width: auto;
+  height: auto;
 }
 
 .navTop {
@@ -64,11 +66,6 @@ body {
   flex-direction: row;
   justify-content: space-around;
   width: 42%;
-}
-
-body {
-  width: auto;
-  height: auto;
 }
 
 header {
