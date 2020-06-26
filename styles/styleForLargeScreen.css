@@ -29,6 +29,9 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+.fundType ul {
+  list-style: none;
+}
 
 .navTop ul:first-child {
   width: 500px;
@@ -238,6 +241,14 @@ header {
   text-align: center;
   border-right: 1px solid #ff4421;
   color: #ff4421;
+}
+
+.fundFeatures ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
 }
 
 .articleNameAndIcons div ul li {
@@ -492,9 +503,7 @@ header {
   color: #111;
 }
 
-.fundType ul {
-  list-style: none;
-}
+
 
 .fundType .amount {
   font-size: 20px;
@@ -504,14 +513,6 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #fffaf9;
-}
-
-.fundFeatures ul li {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 10px;
 }
 
 .fundFeatures ul li:hover {
