@@ -3,7 +3,7 @@
 
 > Microverse Collaborative Project (Ramin and Alexes)
 
-![screenshot](./images/page_screenshot.png)
+![screenshot](./images/screencapture.png)
 
 Additional description about the project and its features.
 
@@ -14,21 +14,21 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RaminMammadzada/design-teardown/0885751b7dacf87a053c6e139150b36de1b99825/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Building-with-Responsive-Design/1928db56351089657fcd00d0ad12720d73965cfb/index.html)
 
 
 ## Getting Started
 
 **Navigation bar**
-- Go to [the NYT article in question ](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) and have a look around. The form isn’t exceptionally complicat
-This project consists of building a heatmap of the [Smashing magazine](https://www.smashingmagazine.com/) website
+- Go to [the next web ](https://thenextweb.com/) and have a look around. The form isn’t exceptionally complicat
+This project consists set responsivity in every element on the project[The next web](https://thenextweb.com/) website
 We have a cloned webpage built with following features:
 
 In this project:
-- The header, body and footer parts are created.
 - Used float, flex and grid.
-- Used shadow and gradients.
-- HTML and CSS animation features are used.
+- Used 3 different css files to set responsivity.
+- Resposivity on every Element of the project
+- HTML and CSS.
 
 
 To get a local copy  and to set it up and running follow these simple example steps.
@@ -38,7 +38,7 @@ To get a local copy  and to set it up and running follow these simple example st
 - Browser
 - Internet
 
-- Download the code from repository (https://github.com/umairarshadbutt/Positioning-and-Floating-Elements) and double click the index.html file
+- Download the code from repository (https://github.com/Alexoid1/Building-with-Responsive-Design) and double click the index.html file
 
 
 ## Authors
@@ -65,6 +65,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
+- Responsivity to elements
 - etc
 
 ## 📝 License
