@@ -472,7 +472,7 @@ main {
 
 .fundImage {
   transform: scale(0.95);
-  width: 70px;
+  width: 80px;
 }
 
 .fundShortInfo {
@@ -484,7 +484,7 @@ main {
 }
 
 .fundInfo {
-  width: auto;
+  width: 100%;
   color: #555;
 }
 
@@ -565,7 +565,7 @@ main {
 .fundName {
   color: white;
   font-size: 15px;
-  height: 40px;
+  height: 30px;
 }
 
 .fundType {
