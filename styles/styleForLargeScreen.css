@@ -154,12 +154,11 @@ header {
   color: black;
 }
 
-
 .coverContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 128px;
-  margin-bottom: 250px;
+  margin-top: 2px;
+  margin-bottom: 30px;
   width: 100%;
 }
 
@@ -243,11 +242,6 @@ header {
   margin: 0 11px 0 0;
 }
 
-.articleNameAndIcons #article1Writer {
-  color: #aaa;
-  text-decoration: none;
-}
-
 .coverRight {
   flex: 30%;
   height: 400px;
@@ -262,7 +256,7 @@ header {
   height: 200px;
 }
 
-.rightCoverArticle1 {
+.rightCoverArticle {
   background: linear-gradient(
       180deg,
       rgba(27, 112, 186, 1) 0%,
@@ -274,13 +268,14 @@ header {
   color: white;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-start;
-  padding-left: 25px;
-  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-bottom: 15px;
 }
 
-.rightCoverArticle1 #article2Name {
+.rightCoverArticle #article2Name, #article3Name {
   font-size: 25px;
   width: 400px;
   text-decoration: none;
@@ -288,7 +283,7 @@ header {
   font-family: 'Barlow', sans-serif;
 }
 
-.rightCoverArticle1 a {
+.rightCoverArticle a {
   font-size: 25px;
   width: 70%;
   text-decoration: none;
@@ -296,32 +291,16 @@ header {
   font-family: 'Raleway', sans-serif;
 }
 
-.rightCoverArticle2 {
-  background: linear-gradient(
-      180deg,
-      rgba(27, 112, 186, 1) 0%,
-      rgba(68, 152, 217, 0.11528361344537819) 100%
-    ),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 25px;
-}
-
 .articleNameAndIcons2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  padding-left: 10px;
 }
 
 .articleNameAndIcons2 h3 {
   size: 10px;
-  padding-left: 22px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -341,6 +320,7 @@ header {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: #aaa;
+  height: 10px;
 }
 
 .articleNameAndIcons2 ul {
@@ -354,17 +334,16 @@ header {
   margin: 0 11px 0 0;
 }
 
-.articleNameAndIcons2 #article1Writer {
+.articleNameAndIcons2 #article2Writer, #article3Writer {
   color: #aaa;
   text-decoration: none;
+  font-size: 1em;
 }
 
-.rightCoverArticle2 #article3Name {
-  font-size: 25px;
-  width: 400px;
+.articleNameAndIcons #article1Writer {
+  color: #aaa;
   text-decoration: none;
-  color: white;
-  font-family: 'Barlow', sans-serif;
+  font-size: 1em;
 }
 
 .nameDateShare {
@@ -550,10 +529,11 @@ header {
 }
 
 main {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  align-items: center;
 }
 
 hr {
