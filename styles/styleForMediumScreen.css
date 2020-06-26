@@ -399,7 +399,9 @@ main {
       rgba(255, 255, 255, 0) 100%
     ),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
-  height: 660px;
+  width: 95%;
+  height: 620px;
+  min-width:250px;
   background-repeat: no-repeat;
   color: #fff;
   display: flex;
@@ -437,7 +439,7 @@ main {
   align-items: center;
   background-color: #ffece8;
   margin-top: 5px;
-  width: 365px;
+  width: 95%;
 }
 
 .hl-latest-news #newsInfo {
