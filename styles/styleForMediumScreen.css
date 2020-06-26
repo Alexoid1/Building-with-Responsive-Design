@@ -381,6 +381,7 @@ main {
   height: 700px;
   margin: 37px;
   transform: scale(1.15);
+  padding-top: 30px;
 }
 
 .hl-title {
