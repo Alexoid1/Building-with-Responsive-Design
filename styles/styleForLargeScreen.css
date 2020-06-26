@@ -61,10 +61,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   width: 42%;
-  
-  
- 
 }
+
 body {
   width: auto;
   height: auto;
@@ -79,7 +77,6 @@ header {
 
 .fixedCont {
   width: 100%;
-  
 }
 
 .navA {
@@ -154,6 +151,7 @@ header {
   color: black;
 }
 
+/* Cover Part */
 .coverContainer {
   display: flex;
   flex-direction: row;
@@ -269,7 +267,7 @@ header {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-between;
   align-items: flex-start;
   padding-left: 5px;
   padding-bottom: 15px;
