@@ -16,6 +16,14 @@
   color: white;
 }
 
+.cornerlogo {
+  display: block;
+  margin-top: -10px;
+  width: 76px;
+  height: 40px;
+  background: url(../images/apple-touch-icon-76x76.png) no-repeat center;
+}
+
 .cornerlogo:hover {
   background: url(../images/home-1.gif) no-repeat center center cover;
 }
@@ -90,7 +98,6 @@ header {
   height: 56px;
   width: 100%;
   background: #ffe712;
-  padding-top: 5px;
   display: block;
   text-align: center;
   color: black;
@@ -102,14 +109,6 @@ header {
 .simpleAnchor {
   text-decoration: none;
   color: black;
-}
-
-.cornerlogo {
-  display: block;
-  margin-top: -10px;
-  width: 76px;
-  height: 40px;
-  background: url(../images/apple-touch-icon-76x76.png) no-repeat center;
 }
 
 main {
@@ -159,6 +158,14 @@ main {
   font-size: 15px;
 }
 
+.lf-header-right ul li {
+  flex-grow: 1;
+  flex-basis: auto;
+  padding: 0.2em 0;
+  color: #ff4421;
+  font-size: 1.2rem;
+}
+
 .articleNameAndIcons {
   display: flex;
   flex-direction: column;
@@ -197,6 +204,28 @@ main {
   flex-wrap: wrap;
 }
 
+.footer-menu-links ul li {
+  display: inline;
+  color: rgb(121, 121, 121);
+  padding: 10px;
+  font-size: 12px;
+}
+
+.hl-news ul li {
+  border-bottom: 1px solid rgb(169, 169, 169);
+  margin: 20px 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.fundFeatures ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+}
+
 .articleNameAndIcons div ul li {
   display: inline;
   margin: 0 11px 0 0;
@@ -218,12 +247,7 @@ main {
 }
 
 .rightCoverArticle {
-  background: linear-gradient(
-      180deg,
-      rgba(27, 112, 186, 1) 0%,
-      rgba(68, 152, 217, 0.11528361344537819) 100%
-    ),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background: linear-gradient(180deg, rgba(27, 112, 186, 1) 0%, rgba(68, 152, 217, 0.11528361344537819) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -322,7 +346,6 @@ main {
   width: 100%;
   display: flex;
   flex-direction: row;
-
   justify-content: center;
 }
 
@@ -346,8 +369,9 @@ main {
   grid-gap: 10px;
 }
 
-.imgText {
-  margin-left: 20px;
+.nameAndDate a {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
 }
 
 .imgText a {
@@ -359,6 +383,15 @@ main {
   margin-bottom: 10px;
 }
 
+.hl-news ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.imgText {
+  margin-left: 20px;
+}
+
 .imgText span {
   font-family: Helvetica, sans-serif;
   color: #757575;
@@ -367,6 +400,13 @@ main {
 
 .imgText a:hover {
   color: #f42;
+}
+
+.imgNcontainer img {
+  width: 25%;
+  height: 43%;
+  float: right;
+  position: relative;
 }
 
 .adver1img img:last-child {
@@ -391,12 +431,6 @@ main {
   display: block;
   text-align: right;
 }
-.imgNcontainer img {
-  width: 25%;
-  height: 43%;
-  float: right;
-  position: relative;
-}
 
 .yellowCornerText {
   display: none;
@@ -416,12 +450,6 @@ main {
 
 #background3 {
   background: url(../images/reading.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#background4 {
-  background: url(../images/stack.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -524,14 +552,6 @@ main {
   margin-bottom: 40px;
 }
 
-.lf-header-right ul li {
-  flex-grow: 1;
-  flex-basis: auto;
-  padding: 0.2em 0;
-  color: #ff4421;
-  font-size: 1.2rem;
-}
-
 .headerHover:hover {
   color: #111;
 }
@@ -595,14 +615,6 @@ main {
   margin: 0;
 }
 
-.fundFeatures ul li {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 8px;
-}
-
 .fundFeatures ul li:hover {
   color: rgb(148, 148, 148);
 }
@@ -655,11 +667,6 @@ main {
   color: rgb(131, 131, 131);
 }
 
-.nameAndDate a {
-  text-decoration: none;
-  color: rgb(131, 131, 131);
-}
-
 .nameAndDate a:hover {
   color: #fff;
 }
@@ -669,6 +676,16 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.hl-latest-news .newsInfo a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #ff4421;
+}
+
+.hl-news ul li a:hover {
+  color: rgb(0, 0, 0);
 }
 
 .hl-latest-news {
@@ -696,12 +713,6 @@ main {
   padding: 0;
 }
 
-.hl-latest-news .newsInfo a {
-  font-size: 0.9rem;
-  text-decoration: none;
-  color: #ff4421;
-}
-
 .hl-latest-news .newsInfo a:hover {
   text-decoration: underline;
 }
@@ -717,13 +728,6 @@ main {
   margin: 0 2px;
 }
 
-.hl-news ul li {
-  border-bottom: 1px solid rgb(169, 169, 169);
-  margin: 20px 0;
-  list-style: none;
-  text-decoration: none;
-}
-
 .hl-news ul {
   padding: 0;
   margin: 0;
@@ -735,15 +739,6 @@ main {
   font-weight: bold;
   display: inline-block;
   width: 1em;
-}
-
-.hl-news ul li a {
-  text-decoration: none;
-  color: #555;
-}
-
-.hl-news ul li a:hover {
-  color: rgb(0, 0, 0);
 }
 
 .allFooter {
@@ -765,13 +760,6 @@ main {
 
 .footer-menu-links {
   margin-top: 30px;
-}
-
-.footer-menu-links ul li {
-  display: inline;
-  color: rgb(121, 121, 121);
-  padding: 10px;
-  font-size: 12px;
 }
 
 .footerHover:hover {
