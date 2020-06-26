@@ -230,6 +230,16 @@ header {
   display: table; /* Allow the centering to work */
 }
 
+.lf-header-right ul li {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: 0.25em 0;
+  padding: 0 1em;
+  text-align: center;
+  border-right: 1px solid #ff4421;
+  color: #ff4421;
+}
+
 .articleNameAndIcons div ul li {
   display: inline;
   margin: 0 11px 0 0;
@@ -437,22 +447,12 @@ header {
   color: #ff4421;
 }
 
-.lf-header-right ul {
+.lf-headerUl {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.lf-header-right ul li {
-  flex-grow: 1;
-  flex-basis: auto;
-  margin: 0.25em 0;
-  padding: 0 1em;
-  text-align: center;
-  border-right: 1px solid #ff4421;
-  color: #ff4421;
 }
 
 .headerHover:hover {
