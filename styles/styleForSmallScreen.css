@@ -178,7 +178,6 @@ main {
   font-family: 'Barlow', sans-serif;
   padding-left: 20px;
   padding-bottom: 1px;
-  
 }
 
 .articleNameAndIcons div {
@@ -193,6 +192,9 @@ main {
   margin: 0;
   padding: 0;
   display: table;   /* Allow the centering to work */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .articleNameAndIcons div ul li {
