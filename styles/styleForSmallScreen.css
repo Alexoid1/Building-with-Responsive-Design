@@ -110,34 +110,38 @@ header {
   background: url(../images/apple-touch-icon-76x76.png)no-repeat center;
 }
 
+
+main {
+  width: 100%;
+}
+
+/* Cover Part */
 .coverContainer {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .coverLeft {
-  background: linear-gradient(
-      180deg,
-      #f42 0%,
-      rgba(68, 152, 217, 0.11528361344537819) 100%
-    ),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   flex: 70%;
-  height: 250px;
+  padding-top: 70px;
+  width: 100%;
   margin: 4px;
   color: white;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .coverImage1AndDate {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: none;
+
 }
 
 .coverImage1AndDate img {
@@ -168,12 +172,13 @@ header {
 }
 
 .articleNameAndIcons #article1Name {
-  font-size: 50px;
+  font-size: 25px;
   text-decoration: none;
   color: white;
   font-family: 'Barlow', sans-serif;
   padding-left: 20px;
   padding-bottom: 1px;
+  
 }
 
 .articleNameAndIcons div {
@@ -195,22 +200,22 @@ header {
   margin: 0 11px 0 0;
 }
 
-.articleNameAndIcons #article1Writer {
-  color: #aaa;
-  text-decoration: none;
-}
-
 .coverRight {
-  display: grid;
-  grid-template-columns: 1fr;
+  flex: 30%;
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 4px 0;
+  width: 100%;
 }
 
 .coverRight div {
   margin-bottom: 4px;
-  height: 125px;
+  height: 170px;
 }
 
-.rightCoverArticle1 {
+.rightCoverArticle {
   background: linear-gradient(
       180deg,
       rgba(27, 112, 186, 1) 0%,
@@ -222,21 +227,23 @@ header {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: flex-between;
   align-items: flex-start;
-  padding-left: 25px;
-  padding-bottom: 25px;
+  margin-left: 5px;
+  padding-bottom: 15px;
+  width: 100%;
 }
 
-.rightCoverArticle1 #article2Name {
+.rightCoverArticle #article2Name, #article3Name {
   font-size: 25px;
-  width: 400px;
+  width: 600px;
   text-decoration: none;
   color: white;
   font-family: 'Barlow', sans-serif;
 }
 
-.rightCoverArticle1 a {
+.rightCoverArticle a {
   font-size: 25px;
   width: 70%;
   text-decoration: none;
@@ -244,32 +251,17 @@ header {
   font-family: 'Raleway', sans-serif;
 }
 
-.rightCoverArticle2 {
-  background: linear-gradient(
-      180deg,
-      rgba(27, 112, 186, 1) 0%,
-      rgba(68, 152, 217, 0.11528361344537819) 100%
-    ),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 25px;
-}
-
 .articleNameAndIcons2 {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-start;
-}
+  padding-left: 10px;
+} 
 
 .articleNameAndIcons2 h3 {
   size: 10px;
-  padding-left: 22px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -289,6 +281,7 @@ header {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: #aaa;
+  height: 10px;
 }
 
 .articleNameAndIcons2 ul {
@@ -302,17 +295,16 @@ header {
   margin: 0 11px 0 0;
 }
 
-.articleNameAndIcons2 #article1Writer {
+.articleNameAndIcons2 #article2Writer, #article3Writer {
   color: #aaa;
   text-decoration: none;
+  font-size: 1em;
 }
 
-.rightCoverArticle2 #article3Name {
-  font-size: 25px;
-  width: 400px;
+.articleNameAndIcons #article1Writer {
+  color: #aaa;
   text-decoration: none;
-  color: white;
-  font-family: 'Barlow', sans-serif;
+  font-size: 1em;
 }
 
 .nameDateShare {
@@ -320,6 +312,7 @@ header {
   flex-direction: row;
   font-family: 'Raleway', sans-serif;
 }
+
 
 
 .containerSection,
