@@ -30,6 +30,10 @@ body {
   justify-content: space-around;
 }
 
+.fundType ul {
+  list-style: none;
+}
+
 .navTop ul:first-child {
   width: 500px;
 }
@@ -240,6 +244,14 @@ header {
   color: #ff4421;
 }
 
+.fundFeatures ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
 .articleNameAndIcons div ul li {
   display: inline;
   margin: 0 11px 0 0;
@@ -393,6 +405,11 @@ header {
   font-size: 11px;
 }
 
+.nameAndDate a {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+}
+
 .imgText a:hover {
   color: #f42;
 }
@@ -492,10 +509,6 @@ header {
   color: #111;
 }
 
-.fundType ul {
-  list-style: none;
-}
-
 .fundType .amount {
   font-size: 20px;
 }
@@ -504,14 +517,6 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #fffaf9;
-}
-
-.fundFeatures ul li {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 10px;
 }
 
 .fundFeatures ul li:hover {
@@ -564,13 +569,7 @@ hr {
   color: #575757;
 }
 
-.hl-header {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8981967787114846) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
+.hl-header {background: linear-gradient(0deg, rgba(0, 0, 0, 0.8981967787114846) 0%, rgba(255, 255, 255, 0) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
   height: 260px;
   background-repeat: no-repeat;
   color: #fff;
@@ -583,11 +582,6 @@ hr {
 
 .nameAndDate span {
   size: 1rem;
-  color: rgb(131, 131, 131);
-}
-
-.nameAndDate a {
-  text-decoration: none;
   color: rgb(131, 131, 131);
 }
 
