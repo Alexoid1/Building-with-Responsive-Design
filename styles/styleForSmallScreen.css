@@ -401,10 +401,7 @@ main {
 }
 
 .imgNcontainer img {
-  width: 25%;
-  height: 43%;
-  float: right;
-  position: relative;
+  display: none;
 }
 
 .adver1img img:last-child {
@@ -425,7 +422,8 @@ main {
 }
 
 .imgNcontainer {
-  height: 150px;
+  width: 75px;
+  height: 75px;
   overflow: hidden;
   display: block;
   text-align: right;
