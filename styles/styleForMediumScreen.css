@@ -148,7 +148,6 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-between;
   align-items: flex-start;
   padding-left: 5px;
   padding-bottom: 15px;
@@ -180,7 +179,6 @@ main {
 }
 
 .articleNameAndIcons2 h3 {
-  size: 10px;
   font-family: "Roboto", sans-serif;
 }
 

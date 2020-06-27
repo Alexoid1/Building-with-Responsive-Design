@@ -12,6 +12,10 @@
   display: none;
 }
 
+.dl {
+  display: block;
+}
+
 .nav1li:hover {
   color: white;
 }
@@ -254,7 +258,6 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-between;
   align-items: flex-start;
   margin-left: 5px;
   padding-bottom: 15px;
@@ -288,7 +291,6 @@ main {
 }
 
 .articleNameAndIcons2 h3 {
-  size: 10px;
   font-family: "Roboto", sans-serif;
 }
 
