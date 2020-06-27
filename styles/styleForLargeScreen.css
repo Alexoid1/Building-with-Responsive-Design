@@ -1,0 +1,840 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.navTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  width: 100%;
+  height: 32px;
+  background: #131313;
+  color: rgba(255, 255, 266, 0.5);
+  padding: 15px 15px 30px;
+  font-size: 15px;
+}
+
+.navTop ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.fundType ul {
+  list-style: none;
+}
+
+.navTop ul:first-child {
+  width: 500px;
+}
+
+.navTop ul:last-child {
+  width: 350px;
+}
+
+.liFirst {
+  color: white;
+}
+
+.nav1li:hover {
+  color: white;
+}
+
+.navFixed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  width: 100%;
+  height: 48px;
+  background: white;
+  color: #aaa;
+  padding: 15px 15px 30px;
+  font-family: "Nova Square", cursive;
+  font-size: 13px;
+}
+
+.ulfixed {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 42%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.fixedCont {
+  width: 100%;
+}
+
+.navA {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.searchIcon {
+  display: flex;
+  height: 38px;
+  opacity: 0.25;
+  padding: 10px 0 18px;
+  width: 38px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.spanMessage {
+  width: 25%;
+  color: black;
+}
+
+.navFli:hover {
+  color: black;
+}
+
+.searchIcon:hover {
+  opacity: 0.3;
+}
+
+.spanMessage em {
+  color: #555;
+}
+
+.hour {
+  font-size: 25px;
+  color: #f42;
+  margin-top: -5px;
+}
+
+.register {
+  background: #0ccc;
+  color: white;
+  height: 35px;
+  font-size: 12px;
+  width: 130px;
+  border: none;
+  margin-top: -5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.register:hover {
+  background: purple;
+}
+
+.yellowContainer {
+  height: 36px;
+  width: 100%;
+  background: #ffe712;
+  padding-top: 5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+}
+
+.simpleAnchor {
+  text-decoration: none;
+  color: black;
+}
+
+/* Cover Part */
+.coverContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.coverLeft {
+  background: linear-gradient(180deg, #f42 0%, rgba(68, 152, 217, 0.11528361344537819) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 70%;
+  height: 400px;
+  margin: 4px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coverImage1AndDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coverImage1AndDate img {
+  max-width: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.coverImage1AndDate h4 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.articleNameAndIcons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.articleNameAndIcons h3 {
+  size: 10px;
+  padding-left: 22px;
+  font-family: "Roboto", sans-serif;
+}
+
+.articleNameAndIcons #article1Name {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  padding-left: 20px;
+  padding-bottom: 1px;
+}
+
+.articleNameAndIcons div {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #aaa;
+}
+
+.ulArticle1 {
+  margin: 0;
+  padding: 0;
+  display: table; /* Allow the centering to work */
+}
+
+.lf-header-right ul li {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: 0.25em 0;
+  padding: 0 1em;
+  text-align: center;
+  border-right: 1px solid #ff4421;
+  color: #ff4421;
+}
+
+.fundFeatures ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.hl-news ul li {
+  border-bottom: 1px solid rgb(169, 169, 169);
+  margin: 20px 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-menu-links ul li {
+  display: inline;
+  color: rgb(121, 121, 121);
+  padding: 10px;
+}
+
+.articleNameAndIcons div ul li {
+  display: inline;
+  margin: 0 11px 0 0;
+}
+
+.coverRight {
+  flex: 30%;
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 4px 0;
+}
+
+.coverRight div {
+  margin-bottom: 4px;
+  height: 200px;
+}
+
+.rightCoverArticle {
+  background: linear-gradient(180deg, rgba(27, 112, 186, 1) 0%, rgba(68, 152, 217, 0.11528361344537819) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Tony-Hawk-796x417.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-left: 5px;
+  padding-bottom: 15px;
+}
+
+.rightCoverArticle #article2Name,
+#article3Name {
+  font-size: 25px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+
+.rightCoverArticle a {
+  font-size: 25px;
+  width: 70%;
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.articleNameAndIcons2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.articleNameAndIcons2 h3 {
+  size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.articleNameAndIcons2 #article1Name {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  padding-left: 20px;
+  padding-bottom: 1px;
+}
+
+.articleNameAndIcons2 div {
+  padding-left: 3px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #aaa;
+  height: 10px;
+}
+
+.ulArticle2 {
+  margin: 0;
+  padding: 0;
+  display: table; /* Allow the centering to work */
+}
+
+.articleNameAndIcons2 div ul li {
+  display: inline;
+  margin: 0 11px 0 0;
+}
+
+.articleNameAndIcons2 #article2Writer,
+#article3Writer {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.articleNameAndIcons #article1Writer {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.nameDateShare {
+  display: flex;
+  flex-direction: row;
+  font-family: "Raleway", sans-serif;
+}
+
+.conte {
+  width: 1135px;
+  height: 300px;
+}
+
+.containerSection,
+.latestDeals {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+
+.newCont .imgN1 {
+  width: 100%;
+  height: 145px;
+}
+
+.newSection {
+  width: 1135px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(221px, 1fr));
+  grid-gap: 40px;
+}
+
+.imgText a {
+  display: block;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+
+.imgText span {
+  font-family: Helvetica, sans-serif;
+  color: #757575;
+  font-size: 11px;
+}
+
+.nameAndDate a {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+}
+
+.hl-news ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.imgText a:hover {
+  color: #f42;
+}
+
+.imgNcontainer img {
+  width: 30%;
+  height: 80px;
+  float: right;
+  position: relative;
+}
+
+.copyrightContainer img {
+  transform: scale(0.2);
+}
+
+.adver1img img:last-child {
+  width: 60px;
+}
+
+.latestFunding {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1176px;
+}
+
+.fundImage {
+  transform: scale(0.95);
+  width: 70px;
+}
+
+.fundShortInfo {
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.fundInfo {
+  width: 260px;
+  color: #555;
+}
+
+.fundLocation {
+  color: rgb(123, 123, 123);
+}
+
+.fundSimpleHover:hover {
+  cursor: pointer;
+}
+
+.latestFunding #lf-header {
+  /* background-color: lawngreen; */
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  font-family: Helvetica, sans-serif;
+}
+
+.lf-header-left h2 {
+  color: #ff4421;
+}
+
+.lf-headerUl {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.headerHover:hover {
+  color: #111;
+}
+
+.latestFunding #lf-content {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latestFunding #lf-content div {
+  margin: 5px;
+}
+
+.fundWholeHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  background: linear-gradient(#f42 50%, #ffece8 50%);
+  height: 90px;
+}
+
+.fundName {
+  color: white;
+  font-size: 15px;
+}
+
+.fundType {
+  padding-top: 10px;
+  color: #111;
+}
+
+.fundType .amount {
+  font-size: 20px;
+}
+
+.fundingRound {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffaf9;
+}
+
+.fundFeatures ul li:hover {
+  color: rgb(148, 148, 148);
+}
+
+main {
+  max-width: 1700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: center;
+  height: auto;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ff4421;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.latestHighlights {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  width: 1176px;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+  height: 700px;
+  margin: 10px;
+}
+
+.hl-title {
+  color: #ff4421;
+  margin: 20px 0;
+}
+
+.hl-title:hover {
+  color: #575757;
+}
+
+.hl-header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8981967787114846) 0%, rgba(255, 255, 255, 0) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
+  height: 260px;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 10px 10px;
+}
+
+.nameAndDate span {
+  size: 1rem;
+  color: rgb(131, 131, 131);
+}
+
+.nameAndDate a:hover {
+  color: #fff;
+}
+
+.hl-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hl-latest-news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffece8;
+  margin-top: 5px;
+  width: 365px;
+}
+
+.hl-latest-news .newsInfo {
+  width: 230px;
+  padding: 10px;
+  color: #ff4421;
+}
+
+.hl-latest-news .newsInfo a {
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #ff4421;
+}
+
+.hl-news ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.hl-latest-news .newsInfo a:hover {
+  text-decoration: underline;
+}
+
+.hl-latest-news .newsImage {
+  padding-right: 10px;
+}
+
+.hl-latest-news .newsImage img {
+  transform: scale(1.18);
+}
+
+.hl-news {
+  margin: 0 18px;
+}
+
+.hl-news ul li::before {
+  content: "\2022";
+  color: #ff4421;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.imgNcontainer {
+  height: 201px;
+  overflow: hidden;
+  display: block;
+  text-align: right;
+}
+
+.yellowCornerText {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 5px;
+  transform: rotate(45deg);
+}
+
+.imgText span em {
+  font-size: 15px;
+}
+
+#background1 {
+  background: url(../images/working.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background2 {
+  background: url(../images/book.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background3 {
+  background: url(../images/reading.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background4 {
+  background: url(../images/stack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background5 {
+  background: url(../images/course.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background6 {
+  background: url(../images/edition.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background7 {
+  background: url(../images/notebag.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background8 {
+  background: url(../images/cofee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.allFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.socialIconsContainer {
+  width: 100%;
+  text-align: center;
+  background-color: #131313;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu-links {
+  margin-top: 30px;
+}
+
+.footerHover:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.copyrightContainer {
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.copyrightContainer b {
+  color: #ff4421;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons-scale {
+  -webkit-transform-origin: right center;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  transform: scale(0.7);
+}
+
+.social-icons i.fa {
+  margin: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(80, 80, 80);
+  color: #fff;
+  padding: 0.65em 0.8em;
+}
+
+.social-icons i.fa:hover {
+  color: #fff;
+  background: #131313;
+  border-color: #000;
+  display: inline-block;
+  border-radius: 70px;
+  box-shadow: 0 0 5px #888;
+  padding: 0.65em 0.8em;
+}
+
+.lf-header2 {
+  width: 1135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #ff4421;
+}
+
+.cornerlogo2 {
+  display: none;
+}
+
+.cornerlogo {
+  display: none;
+}
