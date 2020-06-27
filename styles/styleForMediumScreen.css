@@ -552,7 +552,7 @@ main {
 
 .navTop ul:first-child {
   width: 480px;
-  padding-left:76px ;
+  padding-left: 76px;
 }
 
 .navTop ul:last-child {
@@ -567,12 +567,12 @@ main {
   color: white;
 }
 
-.cornerlogo2{
+.cornerlogo2 {
   z-index: 3;
-  position:absolute;
+  position: absolute;
   width: 76px;
   height: 76px;
-  background: url(../images/apple-touch-icon-76x76.png) no-repeat ;
+  background: url(../images/apple-touch-icon-76x76.png) no-repeat;
 }
 
 .cornerlogo {
