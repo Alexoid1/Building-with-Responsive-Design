@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Building-with-Responsive-Design/1928db56351089657fcd00d0ad12720d73965cfb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Building-with-Responsive-Design/2e1b3d58dd567771a65aa5d773aed1b1032cb2a2/index.html)
 
 
 ## Getting Started
