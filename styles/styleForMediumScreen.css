@@ -156,7 +156,7 @@ main {
 .rightCoverArticle #article2Name,
 #article3Name {
   font-size: 25px;
-  width: 400px;
+  width: 100%;
   text-decoration: none;
   color: white;
   font-family: "Barlow", sans-serif;
