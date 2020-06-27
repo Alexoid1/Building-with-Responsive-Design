@@ -575,6 +575,10 @@ main {
   background: url(../images/apple-touch-icon-76x76.png) no-repeat;
 }
 
+.cornerlogo2:hover {
+  background: url(../images/home-1.gif) no-repeat;
+}
+
 .cornerlogo {
   display: block;
   margin-top: -14px;
@@ -585,7 +589,7 @@ main {
 }
 
 .cornerlogo:hover {
-  background: url(../images/home-1.gif) no-repeat center center cover;
+  background: url(../images/home-1.gif) no-repeat;
 }
 
 .navFixed {
