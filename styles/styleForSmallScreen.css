@@ -368,7 +368,7 @@ main {
 .newCont {
   display: grid;
   grid-template-columns: 90px 1fr;
-  grid-gap: 10px;
+  grid-gap: 0;
 }
 
 .nameAndDate a {
@@ -388,10 +388,6 @@ main {
 .hl-news ul li a {
   text-decoration: none;
   color: #555;
-}
-
-.imgText {
-  margin-left: 20px;
 }
 
 .imgText span {
