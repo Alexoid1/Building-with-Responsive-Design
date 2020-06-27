@@ -574,7 +574,7 @@ hr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   width: 1176px;
   margin-bottom: 50px;
