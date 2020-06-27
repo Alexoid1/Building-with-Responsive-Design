@@ -28,6 +28,10 @@
   background: url(../images/apple-touch-icon-76x76.png) no-repeat center;
 }
 
+.cornerlogo2 {
+  display: none;
+}
+
 .cornerlogo:hover {
   background: url(../images/home-1.gif) no-repeat center center cover;
 }
