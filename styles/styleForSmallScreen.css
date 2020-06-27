@@ -356,7 +356,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .imgN1 {
@@ -416,12 +416,13 @@ main {
 }
 
 .lf-header2 {
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   justify-content: right;
-  margin-bottom: 20px;
-  margin-left: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
   font-family: Helvetica, sans-serif;
   font-weight: bolder;
   color: #ff4421;
