@@ -368,7 +368,8 @@ main {
 .newCont {
   display: grid;
   grid-template-columns: 90px 1fr;
-  grid-gap: 0;
+  grid-gap: 10px;
+  grid-template-rows: 72px;
 }
 
 .nameAndDate a {
@@ -402,7 +403,7 @@ main {
 
 .imgNcontainer img {
   width: 25%;
-  height: 43%;
+  height: 25%;
   float: right;
   position: relative;
 }
@@ -425,7 +426,7 @@ main {
 }
 
 .imgNcontainer {
-  height: 150px;
+  height: 70px;
   overflow: hidden;
   display: block;
   text-align: right;
